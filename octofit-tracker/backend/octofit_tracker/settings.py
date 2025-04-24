@@ -34,7 +34,11 @@ SECRET_KEY = 'django-insecure-your-secret-key'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'crispy-space-umbrella-67g596vjrg2x4ww-8000.app.github.dev',
+]
 
 # Application definition
 INSTALLED_APPS = [
